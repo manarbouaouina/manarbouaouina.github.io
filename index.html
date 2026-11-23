@@ -1,727 +1,328 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Manar Bouaouina | Cybersecurity Engineer</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Manar Bouaouina | Cybersecurity Engineering &amp; AI Research</title>
+  <meta name="description" content="Manar Bouaouina, cybersecurity engineering graduate with research experience in machine-learning-based intrusion detection for IoT.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,600;12..96,800&family=Instrument+Serif:ital@0;1&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!-- Header Navigation -->
-    <header>
-        <div class="container">
-            <nav>
-                <div class="logo">
-                    <a href="#home"><span>&lt;</span> MB <span>/&gt;</span></a>
-                </div>
-                <ul class="nav-links">
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#skills">Skills</a></li>
-                    <li><a href="#projects">Projects</a></li>
-                    <li><a href="#experience">Experience</a></li>
-                    <li><a href="#certifications">Certifications</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-                <div class="hamburger">
-                    <div class="line"></div>
-                    <div class="line"></div>
-                    <div class="line"></div>
-                </div>
-            </nav>
-        </div>
-    </header>
+  <div class="progress" aria-hidden="true"></div>
+  <header class="topbar">
+    <div class="wrap topbar-inner">
+      <a href="#top" class="mark">MB</a>
+      <nav>
+        <a href="#research">Research</a>
+        <a href="#experience">Experience</a>
+        <a href="#leadership">Leadership</a>
+        <a href="#skills">Skills</a>
+        <a href="#education">Education</a>
+        <a href="#contact" class="nav-cta">Contact</a>
+      </nav>
+    </div>
+  </header>
 
-    <!-- Hero Section -->
-    <section id="home" class="hero">
-        <div class="container">
-            <div class="hero-content">
-                <div class="hero-text">
-                    <h1>Manar Bouaouina</h1>
-                    <h2>Computer Science Engineering Student | Cybersecurity Specialist | AI Security Researcher</h2>
-                    <p>A highly motivated Computer Science Engineering student specializing in Cybersecurity, with proven research initiative and practical skills in AI-driven security applications. Seeking a Mitacs Globalink Research Internship to contribute to cutting-edge research at the intersection of Artificial Intelligence and Cybersecurity.</p>
-                    <div class="cta-buttons">
-                        <a href="#contact" class="btn primary-btn">Get In Touch</a>
-                        <a href="#projects" class="btn secondary-btn">View Projects</a>
-                    </div>
-                    <div class="social-icons">
-                        <a href="https://www.linkedin.com/in/manar-bouaouina" target="_blank"><i class="fab fa-linkedin"></i></a>
-                        <a href="https://github.com/manarbouaouina" target="_blank"><i class="fab fa-github"></i></a>
-                        <a href="https://manarbouaouina.github.io" target="_blank"><i class="fas fa-globe"></i></a>
-                    </div>
-                </div>
-                <div class="hero-image">
-                    <div class="security-graphic">
-                        <div class="shield">
-                            <i class="fas fa-shield-alt"></i>
-                            <div class="ripple"></div>
-                        </div>
-                        
-                    </div>
-                </div>
-            </div>
-        </div>
+  <main id="top">
+    <section class="hero">
+      <canvas id="net" aria-hidden="true"></canvas>
+      <div class="wrap hero-inner">
+      <p class="eyebrow"><span class="dot"></span> Seeking a thesis-based Master's or PhD · Cybersecurity &amp; AI</p>
+      <h1>Manar <em>Bouaouina</em></h1>
+      <p class="lede">
+        Cybersecurity engineer researching
+        <span class="rot" data-words="AI-assisted threat detection|intrusion detection for IoT|learning under class imbalance|security of connected systems">AI-assisted threat detection</span><br>
+        Most recently: machine-learning-based intrusion detection for IoT networks at TÉLUQ University, Canada.
+        Now looking for a thesis-based Master's or PhD to take this research further.
+      </p>
+      <div class="hero-links">
+        <a class="btn" href="mailto:manar.bouaouina@gmail.com">Email me</a>
+        <a class="btn ghost" href="https://www.linkedin.com/in/manar-bouaouina" target="_blank" rel="noopener">LinkedIn ↗</a>
+        <a class="btn ghost" href="https://www.credly.com/users/manar-bouaouina" target="_blank" rel="noopener">Credly ↗</a>
+      </div>
+
+      <dl class="facts">
+        <div><dt>Recently</dt><dd>Research intern, TÉLUQ University · Mitacs Globalink</dd></div>
+        <div><dt>Degree</dt><dd>Engineering in Cybersecurity (MEng equiv.), Mention Très Bien</dd></div>
+        <div><dt>Based in</dt><dd>Sousse, Tunisia</dd></div>
+        <div><dt>Languages</dt><dd>Arabic · English · French</dd></div>
+      </dl>
+      </div>
+      <p class="net-hint">click the network to inject traffic</p>
     </section>
 
-    <!-- About Section -->
-    <section id="about" class="about">
-        <div class="container">
-            <div class="section-header">
-                <h2>About</h2>
-                <div class="underline"></div>
-            </div>
-            <div class="about-content">
-                <div class="about-text">
-                    <p>Highly motivated Computer Science Engineering student specializing in Cybersecurity, with hands-on experience in 
-threat detection, SOC/SIEM analysis, and AI-driven security research. Seeking a research internship to contribute to 
-impactful projects in cybersecurity and applied security engineering, leveraging strong technical development 
-skills, academic research experience, and a commitment to advancing secure and privacy-preserving technologies</p>
-                    <p>My expertise spans network security, digital forensics, cryptography, ethical hacking, and AI-driven security applications, with hands-on experience in threat detection, incident response, and cloud security automation.</p>
-                </div>
-                <div class="contact-info">
-                        <div class="contact-item">
-                        <i class="fas fa-envelope"></i>
-                        <span>manar.bouaouina@gmail.com</span>
-                    </div>
-                    <div class="contact-item">
-                        <i class="fas fa-globe"></i>
-                        <span>manarbouaouina.github.io</span>
-                    </div>
-                    <div class="contact-item">
-                        <i class="fas fa-map-marker-alt"></i>
-                        <span>Sousse, Tunisia</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Skills Section -->
-    <section id="skills" class="skills">
-        <div class="container">
-            <div class="section-header">
-                <h2>My Skills</h2>
-                <div class="underline"></div>
-            </div>
-            <div class="skills-container">
-                <div class="skill-category">
-                    <h3>AI & Data Analysis</h3>
-                    <div class="skills-grid">
-                        <div class="skill-item"><span>Python</span></div>
-                        <div class="skill-item"><span>Pandas</span></div>
-                        <div class="skill-item"><span>NumPy</span></div>
-                        <div class="skill-item"><span>Data Processing</span></div>
-                        <div class="skill-item"><span>Regex</span></div>
-                        <div class="skill-item"><span>SQL</span></div>
-                    </div>
-                </div>
-                <div class="skill-category">
-                    <h3>Cybersecurity & Monitoring</h3>
-                    <div class="skills-grid">
-                        <div class="skill-item"><span>Suricata</span></div>
-                        <div class="skill-item"><span>Snort (IDS/IPS)</span></div>
-                        <div class="skill-item"><span>OSSEC HIDS</span></div>
-                        <div class="skill-item"><span>SIEM Concepts</span></div>
-                        <div class="skill-item"><span>Threat Intelligence</span></div>
-                    </div>
-                </div>
-                <div class="skill-category">
-                    <h3>Forensics & Incident Response</h3>
-                    <div class="skills-grid">
-                        <div class="skill-item"><span>The Sleuth Kit (TSK)</span></div>
-                        <div class="skill-item"><span>Autopsy</span></div>
-                        <div class="skill-item"><span>Network Analysis</span></div>
-                    </div>
-                </div>
-                <div class="skill-category">
-                    <h3>Network Security</h3>
-                    <div class="skills-grid">
-                        <div class="skill-item"><span>VPN (IPsec, SSL)</span></div>
-                        <div class="skill-item"><span>PKI</span></div>
-                        <div class="skill-item"><span>OpenSSL</span></div>
-                    </div>
-                </div>
-                <div class="skill-category">
-                    <h3>Development & Tools</h3>
-                    <div class="skills-grid">
-                        <div class="skill-item"><span>Git</span></div>
-                        <div class="skill-item"><span>GitHub</span></div>
-                        <div class="skill-item"><span>Flask</span></div>
-                        <div class="skill-item"><span>Java</span></div>
-                        <div class="skill-item"><span>Spring Boot</span></div>
-                        <div class="skill-item"><span>Azure</span></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Projects Section -->
-    <section id="projects" class="projects">
-        <div class="container">
-            <div class="section-header">
-                <h2>Projects</h2>
-                <div class="underline"></div>
-            </div>
-            <div class="projects-grid">
-                <!-- Project 1 -->
-                <div class="project-card">
-                    <div class="project-header">
-                        <h3>SIEM & IDS/IPS Implementation</h3>
-                        <div class="project-links">
-                            <a href="#" target="_blank"><i class="fas fa-shield-alt"></i></a>
-                        </div>
-                    </div>
-                    <div class="project-body">
-                        <p class="project-description">Configured Suricata and Snort for network threat detection and built an ELK Stack for log analysis and visualization. Implemented comprehensive monitoring solutions for real-time security event detection and analysis.</p>
-                        <div class="project-tech">
-                            <span>Suricata</span>
-                            <span>Snort</span>
-                            <span>ELK Stack</span>
-                            <span>Log Analysis</span>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Project 2 -->
-                <div class="project-card">
-                    <div class="project-header">
-                        <h3>Network Forensics Analysis</h3>
-                        <div class="project-links">
-                            <a href="#" target="_blank"><i class="fas fa-search"></i></a>
-                        </div>
-                    </div>
-                    <div class="project-body">
-                        <p class="project-description">Conducted disk and file system forensic analysis using The Sleuth Kit (TSK) and Autopsy on a simulated compromised machine. Performed comprehensive digital evidence collection and analysis for incident response.</p>
-                        <div class="project-tech">
-                            <span>The Sleuth Kit</span>
-                            <span>Autopsy</span>
-                            <span>Digital Forensics</span>
-                            <span>Incident Response</span>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Project 3 -->
-                <div class="project-card">
-                    <div class="project-header">
-                        <h3>Secure Network Architecture</h3>
-                        <div class="project-links">
-                            <a href="#" target="_blank"><i class="fas fa-network-wired"></i></a>
-                        </div>
-                    </div>
-                    <div class="project-body">
-                        <p class="project-description">Configured a secure SSL VPN and web portal to simulate remote access to internal services via FortiGate. Implemented robust network security measures and access controls for secure remote connectivity.</p>
-                        <div class="project-tech">
-                            <span>FortiGate</span>
-                            <span>SSL VPN</span>
-                            <span>Network Security</span>
-                            <span>Access Control</span>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Project 4 -->
-                <div class="project-card">
-                    <div class="project-header">
-                        <h3>Automated Threat Detection System</h3>
-                        <div class="project-links">
-                            <a href="#" target="_blank"><i class="fas fa-robot"></i></a>
-                        </div>
-                    </div>
-                    <div class="project-body">
-                        <p class="project-description">Developed a Python-based automated system to integrate external threat intelligence feeds (OTX, AbuseIPDB) with internal log analysis for proactive malicious IP monitoring. Engineered a Flask dashboard for data visualization and alerting.</p>
-                        <div class="project-tech">
-                            <span>Python</span>
-                            <span>Flask</span>
-                            <span>SQLite</span>
-                            <span>OTX</span>
-                            <span>AbuseIPDB</span>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Project 5 -->
-                <div class="project-card">
-                    <div class="project-header">
-                        <h3>Cloud Security Automation</h3>
-                        <div class="project-links">
-                            <a href="#" target="_blank"><i class="fab fa-microsoft"></i></a>
-                        </div>
-                    </div>
-                    <div class="project-body">
-                        <p class="project-description">Implemented Infrastructure as Code (IaC) scripts in Python to automate Azure resource provisioning, enforcing security best practices and precise access controls. Enhanced cloud security posture by migrating credentials to Azure Key Vault.</p>
-                        <div class="project-tech">
-                            <span>Azure</span>
-                            <span>Azure Key Vault</span>
-                            <span>Python</span>
-                            <span>IaC</span>
-                            <span>GitHub</span>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Project 6 -->
-                <div class="project-card">
-                    <div class="project-header">
-                        <h3>Deepfakes Security Research</h3>
-                        <div class="project-links">
-                            <a href="#" target="_blank"><i class="fas fa-brain"></i></a>
-                        </div>
-                    </div>
-                    <div class="project-body">
-                        <p class="project-description">Ongoing research paper on the evolution of AI-generated deepfakes as a tool for advanced social engineering and cyber attacks. Investigating detection methodologies and the impact of generative AI on the cybersecurity threat landscape.</p>
-                        <div class="project-tech">
-                            <span>AI Security</span>
-                            <span>Deepfakes</span>
-                            <span>Social Engineering</span>
-                            <span>Research</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Experience Section -->
-    <section id="experience" class="experience">
-        <div class="container">
-            <div class="section-header">
-                <h2>Experience</h2>
-                <div class="underline"></div>
-            </div>
-            <div class="timeline">
-                <div class="timeline-item">
-                    <div class="timeline-icon">
-                        <i class="fas fa-chalkboard-teacher"></i>
-                    </div>
-                    <div class="timeline-content">
-                        <h3>Cybersecurity Instructor – CompTIA Security+</h3>
-                        <h4>GoMyCode, Sousse, Tunisia</h4>
-                        <span class="timeline-date">Feb 2025 – Present</span>
-                        <ul>
-                            <li>Teach foundational to advanced cybersecurity concepts, requiring deep research into real-world attack vectors</li>
-                            <li>Design and build hands-on lab simulations for students</li>
-                            <li>Technologies: Firewalls, VPNs (SSL, IPsec), Cryptography (AES, RSA), SIEM, MFA</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="timeline-item">
-                    <div class="timeline-icon">
-                        <i class="fas fa-shield-alt"></i>
-                    </div>
-                    <div class="timeline-content">
-                        <h3>Cybersecurity Intern – Automated Threat Detection</h3>
-                        <h4>Sotupub, Sousse, Tunisia</h4>
-                        <span class="timeline-date">Jul 2025 – Aug 2025</span>
-                        <ul>
-                            <li>Developed a Python-based automated system to integrate external threat intelligence feeds (OTX, AbuseIPDB)</li>
-                            <li>Engineered a Flask dashboard for data visualization and alerting</li>
-                            <li>Technologies: Python, Flask, SQLite, Regex, n8n, OTX, AbuseIPDB</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="timeline-item">
-                    <div class="timeline-icon">
-                        <i class="fas fa-cloud"></i>
-                    </div>
-                    <div class="timeline-content">
-                        <h3>Software Engineer Intern – Cloud Security & Automation</h3>
-                        <h4>Oratio (Remote)</h4>
-                        <span class="timeline-date">Jul 2025 – Sep 2025</span>
-                        <ul>
-                            <li>Implemented Infrastructure as Code (IaC) scripts in Python to automate Azure resource provisioning</li>
-                            <li>Enhanced cloud security posture by migrating credentials to Azure Key Vault</li>
-                            <li>Technologies: Azure, Azure Key Vault, Python, GitHub, Jira, IaC</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="timeline-item">
-                    <div class="timeline-icon">
-                        <i class="fas fa-code"></i>
-                    </div>
-                    <div class="timeline-content">
-                        <h3>Full Stack Developer Intern</h3>
-                        <h4>Satoripop</h4>
-                        <span class="timeline-date">Feb 2023 – Jul 2023</span>
-                        <ul>
-                            <li>Built a scheduling platform with Spring Boot and AngularJS</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="timeline-item">
-                    <div class="timeline-icon">
-                        <i class="fas fa-server"></i>
-                    </div>
-                    <div class="timeline-content">
-                        <h3>Back End Developer Intern</h3>
-                        <h4>Proxym IT</h4>
-                        <span class="timeline-date">Jul 2022 – Aug 2022</span>
-                        <ul>
-                            <li>Developed a library management service with Java and Spring Boot</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Education Section -->
-    <section id="education" class="education">
-        <div class="container">
-            <div class="section-header">
-                <h2>Education</h2>
-                <div class="underline"></div>
-            </div>
-            <div class="timeline">
-                <div class="timeline-item">
-                    <div class="timeline-icon">
-                        <i class="fas fa-graduation-cap"></i>
-                    </div>
-                    <div class="timeline-content">
-                        <h3>Computer Science Engineering, specializing in Cybersecurity</h3>
-                        <h4>École Polytechnique de Sousse, Tunisia</h4>
-                        <span class="timeline-date">2023 – Present</span>
-                        <p>Relevant Courses: Network Security, Digital Forensics, Cryptography, Ethical Hacking, Operating Systems Security, IDS/IPS, VPN/SSL</p>
-                    </div>
-                </div>
-                <div class="timeline-item">
-                    <div class="timeline-icon">
-                        <i class="fas fa-university"></i>
-                    </div>
-                    <div class="timeline-content">
-                        <h3>Computer Science Degree</h3>
-                        <h4>Higher School of Sciences and Technology of Hammam Sousse (ESSTHS), Tunisia</h4>
-                        <span class="timeline-date">2020 – 2023</span>
-                        <p>Relevant Courses: Data Structures & Algorithms, Database Management Systems, Web/Mobile Development, Object-Oriented Programming (OOP)</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Certifications Section -->
-    <section id="certifications" class="certifications">
-        <div class="container">
-            <div class="section-header">
-                <h2>Certifications</h2>
-                <div class="underline"></div>
-            </div>
-            <div class="certifications-grid">
-                <div class="certification-card">
-                    <div class="certification-logo">
-                        <i class="fas fa-award"></i>
-                    </div>
-                    <div class="certification-content">
-                        <h3>IEEE Region 8 Outstanding Women in Engineering Student Volunteer Award</h3>
-                        <p>IEEE (2022)</p>
-                    </div>
-                </div>
-                <div class="certification-card">
-                    <div class="certification-logo">
-                        <i class="fas fa-network-wired"></i>
-                    </div>
-                    <div class="certification-content">
-                        <h3>CCNA I & II (Networking)</h3>
-                        <p>Cisco</p>
-                    </div>
-                </div>
-                <div class="certification-card">
-                    <div class="certification-logo">
-                        <i class="fas fa-shield-alt"></i>
-                    </div>
-                    <div class="certification-content">
-                        <h3>Cisco Certified Support Technician (Cybersecurity)</h3>
-                        <p>Cisco</p>
-                    </div>
-                </div>
-                <div class="certification-card">
-                    <div class="certification-logo">
-                        <i class="fas fa-user-secret"></i>
-                    </div>
-                    <div class="certification-content">
-                        <h3>CyberSecurity PenTest Ethical Hacker</h3>
-                        <p>Cisco Networking Academy</p>
-                    </div>
-                </div>
-                <div class="certification-card">
-                    <div class="certification-logo">
-                        <i class="fas fa-lock"></i>
-                    </div>
-                    <div class="certification-content">
-                        <h3>Network Security</h3>
-                        <p>Cisco Networking Academy</p>
-                    </div>
-                </div>
-                <div class="certification-card">
-                    <div class="certification-logo">
-                        <i class="fab fa-microsoft"></i>
-                    </div>
-                    <div class="certification-content">
-                        <h3>SC-900: Microsoft Security, Compliance, and Identity Fundamentals</h3>
-                        <p>Microsoft</p>
-                    </div>
-                </div>
-                <div class="certification-card">
-                    <div class="certification-logo">
-                        <i class="fab fa-microsoft"></i>
-                    </div>
-                    <div class="certification-content">
-                        <h3>AZ-900: Microsoft Azure Fundamentals</h3>
-                        <p>Microsoft</p>
-                    </div>
-                </div>
-                <div class="certification-card">
-                    <div class="certification-logo">
-                        <i class="fab fa-python"></i>
-                    </div>
-                    <div class="certification-content">
-                        <h3>Information Technology Specialist in Python</h3>
-                        <p>Certiport (Pearson VUE)</p>
-                    </div>
-                </div>
-                <div class="certification-card">
-                    <div class="certification-logo">
-                        <i class="fab fa-aws"></i>
-                    </div>
-                    <div class="certification-content">
-                        <h3>AWS Academy Cloud Security Foundations</h3>
-                        <p>AWS Academy (Completed)</p>
-                    </div>
-                </div>
-                <div class="certification-card">
-                    <div class="certification-logo">
-                        <i class="fas fa-brain"></i>
-                    </div>
-                    <div class="certification-content">
-                        <h3>AWS Academy Machine Learning Foundations</h3>
-                        <p>AWS Academy (Completed)</p>
-                    </div>
-                </div>
-                <div class="certification-card">
-                    <div class="certification-logo">
-                        <i class="fas fa-robot"></i>
-                    </div>
-                    <div class="certification-content">
-                        <h3>OCI Generative AI Professional</h3>
-                        <p>Oracle (Completed)</p>
-                    </div>
-                </div>
-                <div class="certification-card">
-                    <div class="certification-logo">
-                        <i class="fas fa-chart-line"></i>
-                    </div>
-                    <div class="certification-content">
-                        <h3>OCI Data Science Professional</h3>
-                        <p>Oracle (Completed)</p>
-                    </div>
-                </div>
-                <div class="certification-card">
-                    <div class="certification-logo">
-                        <i class="fas fa-search"></i>
-                    </div>
-                    <div class="certification-content">
-                        <h3>Oracle AI Vector Search Professional</h3>
-                        <p>Oracle (Completed)</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Leadership & Volunteering Section -->
-    <section id="leadership" class="leadership">
-        <div class="container">
-            <div class="section-header">
-                <h2>Leadership & Volunteering</h2>
-                <div class="underline"></div>
-            </div>
-            <div class="leadership-list">
-                <div class="leadership-item">
-                    <div class="leadership-icon">
-                        <i class="fas fa-trophy"></i>
-                    </div>
-                    <div class="leadership-content">
-                        <h3>IEEEXtreme 19.0 & 18.0 Tunisia Section Lead</h3>
-                        <p>Coordinated the national strategy, promotion, and technical support for Tunisia's participation in the global 24-hour programming competition, managing a network of universities and over 1000 participants.</p>
-                    </div>
-                </div>
-                <div class="leadership-item">
-                    <div class="leadership-icon">
-                        <i class="fas fa-users"></i>
-                    </div>
-                    <div class="leadership-content">
-                        <h3>IEEE WIE Tunisia Section Student Affinity Groups Coordinator</h3>
-                        <p>Organized nationwide mentoring programs and technical workshops to foster collaboration and professional development among women engineering students across Tunisia.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Languages Section -->
-    <section id="languages" class="languages">
-        <div class="container">
-            <div class="section-header">
-                <h2>Languages</h2>
-                <div class="underline"></div>
-            </div>
-            <div class="languages-grid">
-                <div class="language-item">
-                    <div class="language-icon">
-                        <i class="fas fa-globe"></i>
-                    </div>
-                    <div class="language-content">
-                        <h3>Arabic</h3>
-                        <p>Native</p>
-                    </div>
-                </div>
-                <div class="language-item">
-                    <div class="language-icon">
-                        <i class="fas fa-certificate"></i>
-                    </div>
-                    <div class="language-content">
-                        <h3>French</h3>
-                        <p>DELF B2 Certified</p>
-                    </div>
-                </div>
-                <div class="language-item">
-                    <div class="language-icon">
-                        <i class="fas fa-certificate"></i>
-                    </div>
-                    <div class="language-content">
-                        <h3>English</h3>
-                        <p>OnSET B2 Certified</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-
-
-    <!-- Research Section -->
-    <section id="research" class="research">
-        <div class="container">
-            <div class="section-header">
-                <h2>Research & Publications</h2>
-                <div class="underline"></div>
-            </div>
-            <div class="research-container">
-                <div class="research-grid">
-                    <div class="research-card">
-                        <div class="research-icon">
-                            <i class="fas fa-brain"></i>
-                        </div>
-                        <div class="research-content">
-                            <h3>Deepfakes as a Weapon</h3>
-                            <p class="research-status">Ongoing Research Paper (2025–Present)</p>
-                            <p>Authoring an ongoing research paper on the evolution of AI-generated deepfakes as a tool for advanced social engineering and cyber attacks. Investigating detection methodologies and the impact of generative AI on the cybersecurity threat landscape, requiring extensive academic literature review and analysis.</p>
-                            <div class="research-tech">
-                                <span>AI Security</span>
-                                <span>Deepfakes</span>
-                                <span>Social Engineering</span>
-                                <span>Threat Analysis</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Contact Section -->
-    <section id="contact" class="contact">
-        <div class="container">
-            <div class="section-header">
-                <h2>Get In Touch</h2>
-                <div class="underline"></div>
-            </div>
-            <div class="contact-container">
-                <div class="contact-info-container">
-                    <div class="contact-info-item">
-                        <div class="icon">
-                            <i class="fas fa-envelope"></i>
-                        </div>
-                        <div class="text">
-                            <h3>Email</h3>
-                            <p>manar.bouaouina@gmail.com</p>
-                        </div>
-                    </div>
-                    <div class="contact-info-item">
-                        <div class="icon">
-                            <i class="fas fa-globe"></i>
-                        </div>
-                        <div class="text">
-                            <h3>Website</h3>
-                            <p><a href="https://manarbouaouina.github.io" target="_blank">manarbouaouina.github.io</a></p>
-                        </div>
-                    </div>
-                    <div class="contact-info-item">
-                        <div class="icon">
-                            <i class="fab fa-linkedin"></i>
-                        </div>
-                        <div class="text">
-                            <h3>LinkedIn</h3>
-                            <p><a href="https://www.linkedin.com/in/manar-bouaouina" target="_blank">Connect with me</a></p>
-                        </div>
-                    </div>
-                </div>
-                <div class="contact-form-container">
-                    <form id="contact-form">
-                        <div class="form-group">
-                            <input type="text" id="name" placeholder="Your Name" required>
-                        </div>
-                        <div class="form-group">
-                            <input type="email" id="email" placeholder="Your Email" required>
-                        </div>
-                        <div class="form-group">
-                            <input type="text" id="subject" placeholder="Subject" required>
-                        </div>
-                        <div class="form-group">
-                            <textarea id="message" placeholder="Your Message" required></textarea>
-                        </div>
-                        <button type="submit" class="btn primary-btn">Send Message</button>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Footer -->
-    <footer>
-        <div class="container">
-            <div class="footer-content">
-                <div class="footer-logo">
-                    <a href="#home"><span>&lt;</span> MB <span>/&gt;</span></a>
-                </div>
-                <div class="footer-social">
-                    <a href="https://www.linkedin.com/in/manar-bouaouina" target="_blank"><i class="fab fa-linkedin"></i></a>
-                    <a href="https://github.com/manarbouaouina" target="_blank"><i class="fab fa-github"></i></a>
-                    <a href="https://manarbouaouina.github.io" target="_blank"><i class="fas fa-globe"></i></a>
-                </div>
-                <div class="footer-links">
-                    <a href="#home">Home</a>
-                    <a href="#about">About</a>
-                    <a href="#projects">Projects</a>
-                    <a href="#research">Research</a>
-                    <a href="#contact">Contact</a>
-                </div>
-                <div class="footer-bottom">
-                    <p>&copy; 2025 Manar Bouaouina. All Rights Reserved.</p>
-                </div>
-            </div>
-        </div>
-    </footer>
-
-    <!-- Theme toggle -->
-    <div class="theme-toggle">
-        <i class="fas fa-moon"></i>
-        <i class="fas fa-sun"></i>
+    <div class="ticker" aria-hidden="true">
+      <div class="ticker-track">
+        <span>Intrusion detection</span><span>IoT security</span><span>Applied ML</span><span>Threat intelligence</span><span>Digital forensics</span><span>SIEM / SOAR</span><span>Cloud security</span><span>Class imbalance</span>
+        <span>Intrusion detection</span><span>IoT security</span><span>Applied ML</span><span>Threat intelligence</span><span>Digital forensics</span><span>SIEM / SOAR</span><span>Cloud security</span><span>Class imbalance</span>
+      </div>
     </div>
 
-    <script src="script.js"></script>
+    <section id="research" class="block wrap">
+      <div class="block-head">
+        <span class="num">01</span>
+        <h2>Research</h2>
+      </div>
+      <div class="block-body">
+        <div class="interests">
+          <div>
+            <h3>Focus</h3>
+            <p>Network intrusion detection, applied machine learning, IoT security, classification under class imbalance.</p>
+          </div>
+          <div>
+            <h3>Interests</h3>
+            <p>Advanced computer and network security, AI-assisted threat detection, security of connected systems.</p>
+          </div>
+          <div>
+            <h3>Next</h3>
+            <p>Deepening security-engineering expertise on the way to doctoral research in cybersecurity.</p>
+          </div>
+        </div>
+
+        <article class="entry feature spot">
+          <div class="entry-meta">
+            <span>04/2026 – 10/2026</span>
+            <span>Montréal, QC, Canada</span>
+          </div>
+          <div class="entry-main">
+            <h3>Research Intern: ML-Based Intrusion Detection for IoT</h3>
+            <p class="where">TÉLUQ University · Mitacs Globalink Research Award</p>
+            <ul>
+              <li>Developed and evaluated machine-learning models for intrusion detection in IoT networks, detecting anomalous traffic patterns in data from heterogeneous IoT devices.</li>
+              <li>Investigated feature-engineering pipelines and model trade-offs (detection rate vs. false-positive rate) under realistic IoT constraints.</li>
+            </ul>
+            <p class="tags"><span>Network intrusion detection</span><span>Applied ML</span><span>IoT security</span><span>Class imbalance</span></p>
+          </div>
+        </article>
+
+        <article class="entry">
+          <div class="entry-meta"><span>2025</span><span>Sousse, Tunisia</span></div>
+          <div class="entry-main">
+            <h3>Academic Research Project: “Deepfakes as a Weapon”</h3>
+            <p class="where">École Polytechnique de Sousse</p>
+            <p>Authored a research paper on AI-generated deepfakes as a vector for advanced social engineering: generation techniques, detection approaches, and their limits against adaptive adversaries.</p>
+          </div>
+        </article>
+
+        <div class="lab spot" id="lab">
+          <div class="lab-head">
+            <span class="lab-k">Interactive · toy example</span>
+            <h3>Why I don't trust accuracy on imbalanced traffic</h3>
+            <p>Imagine 1,000 network flows: 900 normal, and three attack types that get rarer and rarer. Drag the sliders to change how many of each attack the detector catches, and see which metric notices.</p>
+          </div>
+          <div class="lab-grid">
+            <div class="lab-sliders">
+              <label><span>DoS <em>60 flows</em></span><input type="range" min="0" max="100" value="95" data-n="60"><b>95%</b></label>
+              <label><span>Reconnaissance <em>30 flows</em></span><input type="range" min="0" max="100" value="40" data-n="30"><b>40%</b></label>
+              <label><span>Exploit <em>10 flows</em></span><input type="range" min="0" max="100" value="0" data-n="10"><b>0%</b></label>
+            </div>
+            <div class="lab-out">
+              <div class="metric"><span>Accuracy</span><strong id="m-acc">–</strong><i><u id="b-acc"></u></i></div>
+              <div class="metric hi"><span>Macro-F1</span><strong id="m-f1">–</strong><i><u id="b-f1"></u></i></div>
+              <p id="lab-say" class="lab-say"></p>
+            </div>
+          </div>
+          <p class="lab-foot">Illustrative numbers only, not results from my research. Missed attacks are counted as "normal"; no false alarms.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="experience" class="block wrap">
+      <div class="block-head">
+        <span class="num">02</span>
+        <h2>Experience</h2>
+      </div>
+      <div class="block-body">
+        <article class="entry">
+          <div class="entry-meta"><span>07/2025 – 09/2025</span><span>Remote</span></div>
+          <div class="entry-main">
+            <h3>Software Engineer Intern, Cloud Security &amp; Automation</h3>
+            <p class="where">Oratio Technologies</p>
+            <p>Automated Azure resource provisioning with Python and IaC, enforced secure access-control policies, and migrated credentials to Azure Key Vault to harden DevSecOps workflows.</p>
+            <p class="tags"><span>Azure</span><span>Azure Key Vault</span><span>Python</span><span>GitHub</span><span>Jira</span><span>IaC</span></p>
+          </div>
+        </article>
+
+        <article class="entry">
+          <div class="entry-meta"><span>07/2025 – 08/2025</span><span>Sousse, Tunisia</span></div>
+          <div class="entry-main">
+            <h3>Cybersecurity Intern, Automated Threat Detection</h3>
+            <p class="where">Sotupub</p>
+            <p>Built an automated threat-detection pipeline integrating OTX and AbuseIPDB feeds with internal logs for real-time malicious-IP monitoring.</p>
+            <p class="tags"><span>Python</span><span>Flask</span><span>SQLite</span><span>Regex</span><span>n8n</span><span>OTX</span><span>AbuseIPDB</span></p>
+          </div>
+        </article>
+
+        <article class="entry compact">
+          <div class="entry-meta"><span>02/2023 – 07/2023</span></div>
+          <div class="entry-main">
+            <h3>Full Stack Developer Intern · Satoripop</h3>
+            <p>Built a scheduling platform with Spring Boot and AngularJS.</p>
+          </div>
+        </article>
+
+        <article class="entry compact">
+          <div class="entry-meta"><span>07/2022 – 08/2022</span></div>
+          <div class="entry-main">
+            <h3>Back End Developer Intern · Proxym IT</h3>
+            <p>Developed a library management service with Java and Spring Boot.</p>
+          </div>
+        </article>
+
+        <h3 class="sub">Cybersecurity projects &amp; labs</h3>
+        <div class="cards">
+          <div class="card spot">
+            <span class="card-k">SIEM &amp; IDS/IPS</span>
+            <p>Configured and tuned Suricata and Snort, integrated with an ELK Stack for real-time log analysis, alert correlation and visualization.</p>
+          </div>
+          <div class="card spot">
+            <span class="card-k">Network forensics</span>
+            <p>Disk and file-system forensics on a simulated compromised machine with The Sleuth Kit and Autopsy; systematic evidence collection and reporting.</p>
+          </div>
+          <div class="card spot">
+            <span class="card-k">Secure network architecture</span>
+            <p>SSL VPN and web-access portal on FortiGate for remote access to internal services, with segmentation, encryption and access control.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="leadership" class="block wrap">
+      <div class="block-head">
+        <span class="num">03</span>
+        <h2>Teaching &amp; Leadership</h2>
+      </div>
+      <div class="block-body">
+        <article class="entry">
+          <div class="entry-meta"><span>02/2025 – 04/2026</span><span>Sousse, Tunisia</span></div>
+          <div class="entry-main">
+            <h3>Cybersecurity Instructor, CompTIA Security+</h3>
+            <p class="where">GoMyCode</p>
+            <p>Taught CompTIA Security+ to 30+ students: network security, cryptography, SIEM, risk management, and practical security labs.</p>
+            <p class="tags"><span>CIA triad</span><span>Security controls</span><span>Change management</span><span>Incident response</span><span>Kali Linux</span></p>
+          </div>
+        </article>
+        <article class="entry">
+          <div class="entry-meta"><span>IEEE Tunisia Section</span></div>
+          <div class="entry-main">
+            <h3>IEEEXtreme Tunisia Section Lead, Editions 18.0 &amp; 19.0</h3>
+            <p>Coordinated national strategy, promotion and technical support for Tunisia's participation in the global 24-hour programming competition: a network of universities and 1,000+ participants.</p>
+          </div>
+        </article>
+        <article class="entry">
+          <div class="entry-meta"><span>IEEE Tunisia Section</span></div>
+          <div class="entry-main">
+            <h3>WIE Student Affinity Groups Coordinator</h3>
+            <p>Organized nationwide mentoring programs and technical workshops for women engineering students across Tunisia.</p>
+          </div>
+        </article>
+        <div class="award">
+          <span class="award-k">Award · 2022</span>
+          <p>IEEE Region 8 Outstanding Women in Engineering Student Volunteer Award</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="block wrap">
+      <div class="block-head">
+        <span class="num">04</span>
+        <h2>Skills &amp; Credentials</h2>
+      </div>
+      <div class="block-body">
+        <div class="skills">
+          <div>
+            <h3>Cybersecurity &amp; monitoring</h3>
+            <p class="tags"><span>Suricata</span><span>Snort (IDS/IPS)</span><span>SIEM &amp; log correlation</span><span>Threat intelligence (OTX, AbuseIPDB)</span><span>SOAR</span></p>
+          </div>
+          <div>
+            <h3>AI &amp; data analysis</h3>
+            <p class="tags"><span>Python</span><span>Pandas</span><span>NumPy</span><span>Scikit-learn</span><span>Anomaly detection</span><span>Feature engineering &amp; selection</span><span>Supervised / unsupervised learning</span><span>Data preprocessing</span><span>Pipeline automation</span><span>ML evaluation</span></p>
+          </div>
+          <div>
+            <h3>Forensics &amp; incident response</h3>
+            <p class="tags"><span>The Sleuth Kit</span><span>Autopsy</span><span>Network traffic analysis</span><span>Log investigation</span><span>Evidence preservation</span></p>
+          </div>
+          <div>
+            <h3>Network security</h3>
+            <p class="tags"><span>VPNs (IPsec, SSL)</span><span>PKI &amp; digital certificates</span><span>OpenSSL</span><span>Secure network configuration</span></p>
+          </div>
+          <div>
+            <h3>Development &amp; cloud</h3>
+            <p class="tags"><span>Git &amp; GitHub</span><span>Flask</span><span>Java &amp; Spring Boot</span><span>Azure (IaC, Key Vault)</span></p>
+          </div>
+        </div>
+
+        <h3 class="sub">Certificates</h3>
+        <ul class="certs">
+          <li><span>Information Technology Specialist in Python</span><em>Certiport (Pearson VUE)</em></li>
+          <li><span>CCNA I &amp; II (Networking)</span><em>Cisco</em></li>
+          <li><span>Cisco Certified Support Technician (Cybersecurity)</span><em>Cisco</em></li>
+        </ul>
+
+        <h3 class="sub">Relevant courses</h3>
+        <ul class="certs">
+          <li><span>AZ-900: Microsoft Azure Fundamentals</span><em>Microsoft</em></li>
+          <li><span>SC-900: Security, Compliance, and Identity Fundamentals</span><em>Microsoft</em></li>
+          <li><span>Network Security</span><em>Cisco Networking Academy</em></li>
+          <li><span>Cyber Security PenTest Ethical Hacker</span><em>Cisco Networking Academy</em></li>
+          <li><span>OCI Foundations · OCI Generative AI</span><em>Oracle</em></li>
+          <li><span>Cloud Operations · Cloud Security Foundations</span><em>AWS Academy</em></li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="education" class="block wrap">
+      <div class="block-head">
+        <span class="num">05</span>
+        <h2>Education</h2>
+      </div>
+      <div class="block-body">
+        <article class="entry">
+          <div class="entry-meta"><span>2023 – 2026</span><span>Sousse, Tunisia</span></div>
+          <div class="entry-main">
+            <h3>Engineering Degree in Computer Science, Cybersecurity (equiv. MEng)</h3>
+            <p class="where">École Polytechnique de Sousse · GPA 15.14/20 · Mention Très Bien</p>
+            <p>Network Security, Operating Systems Security, Cryptography, Ethical Hacking, Digital Forensics, IDS/IPS, VPN/SSL, IAM, SOAR, FortiSIEM, FortiManager.</p>
+          </div>
+        </article>
+        <article class="entry">
+          <div class="entry-meta"><span>2020 – 2023</span><span>Sousse, Tunisia</span></div>
+          <div class="entry-main">
+            <h3>Bachelor's Degree in Computer Science</h3>
+            <p class="where">Higher School of Sciences and Technology of Hammam Sousse (ESSTHS) · GPA 13.17/20</p>
+            <p>Data Structures &amp; Algorithms, Database Management Systems, Web/Mobile Development, Object-Oriented Programming.</p>
+          </div>
+        </article>
+        <div class="langs">
+          <div><strong>Arabic</strong><span>Native</span></div>
+          <div><strong>English</strong><span>TOEIC 900/990</span></div>
+          <div><strong>French</strong><span>DELF B2 certified</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact">
+      <div class="wrap">
+      <p class="eyebrow">Get in touch</p>
+      <h2>Looking for a thesis-based <em>Master's or PhD</em> in cybersecurity &amp; AI.</h2>
+      <p class="contact-sub">Supervisors and labs working on intrusion detection, IoT security or trustworthy ML: I'd love to hear from you.</p>
+      <a class="big-mail" href="mailto:manar.bouaouina@gmail.com">manar.bouaouina@gmail.com</a>
+      <div class="hero-links">
+        <a class="btn ghost" href="https://www.linkedin.com/in/manar-bouaouina" target="_blank" rel="noopener">LinkedIn ↗</a>
+        <a class="btn ghost" href="https://www.credly.com/users/manar-bouaouina" target="_blank" rel="noopener">Credly ↗</a>
+      </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="wrap foot">
+    <span>© <span id="year">2026</span> Manar Bouaouina</span>
+    <a href="#top">Back to top ↑</a>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
